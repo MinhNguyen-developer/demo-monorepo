@@ -6,7 +6,10 @@
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "jsx": "react-jsx",
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "paths": {
+      "test-utils": ["./test-utils"]
+    }
   },
   "include": [
     "."
