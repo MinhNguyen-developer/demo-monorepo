@@ -4,5 +4,3 @@ node_modules
 .nx
 
 .idea
-
-packages/lib/__test__/__snapshots__
