@@ -1,12 +1,17 @@
-import { Button } from "lib";
-import "./App.css";
+import Button from "lib/Button.tsx";
 
 function App() {
   return (
-    <div>
-      <h1>Using monorepos with Nx</h1>
+    <>
+      <h1
+        style={{
+          color: "black",
+        }}
+      >
+        Using monorepos with Nx
+      </h1>
       <Button onClick={() => console.log("Clicked")}>Click me!</Button>
-    </div>
+    </>
   );
 }
 
